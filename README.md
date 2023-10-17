@@ -41,33 +41,33 @@ https://github.com/tashrifbillah/glxgears-containers#windows-1
 
 (i) build
 
-> docker build -t tbillah/fsl-6.0.1-centos7 -f Dockerfile.centos7 .
+> docker build -t peaceisbetter/fsl-6.0.1-centos7 -f Dockerfile.centos7 .
 
 
 (ii) push
 
-> docker push tbillah/fsl-6.0.1-centos7
+> docker push peaceisbetter/fsl-6.0.1-centos7
 
 
 (iii) pull
 
-> docker pull tbillah/fsl-6.0.1-centos7
+> docker pull peaceisbetter/fsl-6.0.1-centos7
 
 
 (iv) run
 
 **Linux/OSX**
 
-> docker run --rm -ti --privileged -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix tbillah/fsl-6.0.1-centos7
+> docker run --rm -ti --privileged -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix peaceisbetter/fsl-6.0.1-centos7
 
 Details can be found [here](https://github.com/tashrifbillah/glxgears-containers#linuxmac)
 
 
 **Windows**
 
-Follow steps mentioned [here](https://github.com/tashrifbillah/glxgears-containers#windows) and use `tbillah/fsl-6.0.1-centos7` instead of `glxgears-docker`. Eventually, you would use
+Follow steps mentioned [here](https://github.com/tashrifbillah/glxgears-containers#windows) and use `peaceisbetter/fsl-6.0.1-centos7` instead of `glxgears-docker`. Eventually, you would use
 
-> docker run --rm -ti --privileged -e DISPLAY=$DISPLAY tbillah/fsl-6.0.1-centos7
+> docker run --rm -ti --privileged -e DISPLAY=$DISPLAY peaceisbetter/fsl-6.0.1-centos7
 
 
 # Singularity fsl image
@@ -80,12 +80,12 @@ Follow steps mentioned [here](https://github.com/tashrifbillah/glxgears-containe
 
 (ii) push
 
-> singularity push fsl-6.0.1-centos7 library://tbillah/collection/fsl-6.0.1-centos7
+> singularity push fsl-6.0.1-centos7 library://peaceisbetter/collection/fsl-6.0.1-centos7
 
 
 (iii) pull
 
-> singularity pull library://tbillah/collection/fsl-6.0.1-centos7
+> singularity pull library://peaceisbetter/collection/fsl-6.0.1-centos7
 
 
 (iv) run
